@@ -1,0 +1,23 @@
+/* Navbar */
+.navMain {
+	text-align: center;
+	text-decoration: none;
+    font-size: 190%;
+    padding: .8%;
+    margin-bottom: 5px;
+    font-family: 'Delius Unicase';
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+	color: lightgray;
+}
+.navbar {
+    list-style-type: none;
+    display: inline;
+    padding: 4%;
+}
