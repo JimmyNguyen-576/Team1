@@ -8,53 +8,176 @@
     <title>Seabubbles Hawaii</title>
     <style>
         /* Navbar */
-        .navMain {
-            text-align: center;
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+
+        nav {
+            width: 100%;
+            background: #368DC5;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        li {
+            float: left;
+
+        }
+
+        a {
+            padding: 20px;
+            width: 100px;
+            display: block;
             text-decoration: none;
-            font-size: 190%;
-            padding: .8%;
-            margin-bottom: 5px;
-            font-family: 'Delius Unicase';
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
         }
 
-        a:link {
-            color: black;
+        #section1 {
+            height: 700px;
+            display: inline-block;
+            width: 100%;
         }
 
-        a:visited {
-            color: black;
+        #imageCut {
+            width: 100%;
+            height: 100px;
+            background-image: url('turtles.jpeg');
         }
 
-        a:hover {
-            color: lightgray;
+        #section2 {
+            height: 1100px;
+            background: yellow;
+            display: inline-block;
+            width: 100%;
         }
 
-        .navbar {
-            list-style-type: none;
-            display: inline;
-            padding: 4%;
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding-top: 20px;
+        }
+
+        #section3 {
+            height: 700px;
+            display: inline-block;
+            width: 100%;
+        }
+
+        #section4 {
+            height: 700px;
+            background: pink;
+            display: inline-block;
+            width: 100%;
+        }
+
+        h1 {
+            margin: 100px;
+            padding: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .container {
+            width: 700px;
+            height: 250px;
+            position: relative;
+            margin: auto;
+        }
+
+        .bio {
+            width: auto;
         }
     </style>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navMain">
-        <ul class="navbar">
-            <li class="navbar">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="navbar">
-                <a href="service.html">Service</a>
-            </li>
-            <li class="navbar">
-                <a href="aboutUs.html">About Us</a>
-            </li>
-            <li class="navbar">
-                <a href="contact.html">Contact and scheduling</a>
-            </li>
+    <nav>
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Service</a></li>
+            <li><a href="#section3">About Us</a></li>
+            <li><a href="#section4">Scheduling</a></li>
         </ul>
     </nav>
+    <div id="section1">
+        <h1> This is Home Section</h1>
+    </div>
+    <div id="imageCut">
+    </div>
+    <div id="section2">
+        <div class="container">
+            <h1>
+                Service
+            </h1>
+            <p class="bio">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti voluptatem et accusantium sapiente
+                nam
+                tempora enim. Error fuga corrupti sed. Similique vero, maiores non magni nobis nostrum nemo! Molestiae
+                soluta perspiciatis alias at qui, architecto omnis fugiat exercitationem neque, debitis veritatis?
+                Quibusdam
+                consequuntur error enim assumenda obcaecati, maiores exercitationem repellendus nobis iste excepturi
+                optio,
+                a ullam praesentium pariatur est esse? Ab accusamus numquam mollitia consequatur totam nam quisquam
+                dolores
+                nostrum ducimus explicabo expedita ea ipsum a suscipit aliquam deserunt, voluptatibus excepturi tenetur.
+                Eveniet consequatur ex in impedit obcaecati fugit nam ratione est, accusantium animi architecto ab
+                veritatis, unde quas autem.
+            </p>
+        </div>
+        <div class="container">
+            <h1>
+                Equipment
+            </h1>
+            <p class="bio">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti voluptatem et accusantium sapiente
+                nam
+                tempora enim. Error fuga corrupti sed. Similique vero, maiores non magni nobis nostrum nemo! Molestiae
+                soluta perspiciatis alias at qui, architecto omnis fugiat exercitationem neque, debitis veritatis?
+                Quibusdam
+                consequuntur error enim assumenda obcaecati, maiores exercitationem repellendus nobis iste excepturi
+                optio,
+                a ullam praesentium pariatur est esse? Ab accusamus numquam mollitia consequatur totam nam quisquam
+                dolores
+                nostrum ducimus explicabo expedita ea ipsum a suscipit aliquam deserunt, voluptatibus excepturi tenetur.
+                Eveniet consequatur ex in impedit obcaecati fugit nam ratione est, accusantium animi architecto ab
+                veritatis, unde quas autem.
+            </p>
+            <img src="scuba.avif" alt="scuba" class="center">
+        </div>
+       
+    </div>
+    <div id="section3">
+        <h1> This is About Us Section</h1>
+    </div>
+    <div id="section4">
+        <h1> This is Contact and Scheduling Section</h1>
+    </div>
+
+
 
 </body>
 
