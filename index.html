@@ -80,7 +80,7 @@
         }
 
         #section3 {
-            height: 700px;
+            height: 1000px;
             background-color: yellow;
             display: inline-block;
             width: 100%;
@@ -170,6 +170,56 @@
             padding-left: 2em;
             line-height: 2;
         }
+
+        /*About Us styles*/
+        .about-us {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        .about-us img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+
+        .about-us h1 {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section img {
+            width: 45%;
+            height: auto;
+            max-height: 300px;
+            object-fit: contain;
+        }
+
+        .section-text {
+            width: 45%;
+            text-align: left;
+            padding: 0 100px;
+        }
     </style>
 </head>
 
@@ -187,7 +237,7 @@
     <!--Home Page-->
     <div class="top" id="section1">
         <div class="imgText">
-            <img class="turtle" src="turtle.png" alt="turtle being a turtle">
+            <img class="turtle" src="turtle.jpg" alt="turtle being a turtle">
             <div id="text">
                 <h1>Seabubbles Diving Service</h1>
                 <p>Take Pictures, Leave Bubbles</p>
@@ -341,8 +391,25 @@
 
     </div>
     <div id="section3">
-
-      <h1>About Us</h1>
+        <div>
+            <div class="about-us">
+                <h1 style="color: black; padding: 0 100px; font-size: 100px;">About Us</h1>
+            </div>
+            <div class="section">
+                <div class="section-text">
+                    <p>we actually suck at diving </p>
+                </div>
+                <img src="Kristen-Markley-OTC-WEB.png" alt="Section 1">
+            </div>
+            <div class="section">
+                <div class="section-text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid mollitia, nostrum, dicta modi
+                        numquam fugit veniam quibusdam expedita, nemo minus nihil! Quod, minus neque atque aliquam explicabo
+                        accusamus recusandae suscipit. </p>
+                </div>
+                <img src="diving.png" alt="Section 2">
+            </div>
+        </div>
 
     </div>
     <div id="section4">
