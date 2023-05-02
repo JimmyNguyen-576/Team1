@@ -1,3 +1,4 @@
+<<<<<<< HEAD
         /* Navbar */
         html {
             scroll-behavior: smooth;
@@ -258,3 +259,265 @@
             align-items: center;
             padding-bottom: 10%;
         }
+=======
+ /* Navbar */
+ html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #F5f5f5;
+}
+
+nav {
+    width: 100%;
+    background: #368DC5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+
+}
+
+a {
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+#section1 {
+    height: 1800px;
+    display: inline-block;
+    width: 100%;
+}
+
+.imageCut {
+    width: 100%;
+    height: 100px;
+    background-color: #009dc4;
+}
+
+#section2 {
+    height: 1100px;
+    display: inline-block;
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+#section3 {
+    height: 1000px;
+    /* background-color: yellow; */
+    display: inline-block;
+    width: 100%;
+}
+
+#section4 {
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    margin: 100px;
+    padding: 0;
+    font-family: 'Calligraffitti';
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.container {
+    width: 700px;
+    height: 250px;
+    position: relative;
+    margin: auto;
+}
+
+.bio {
+    width: auto;
+    line-height: 2;
+}
+
+/*Home Page*/
+.turtle {
+    padding-top: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+
+.top {
+    margin: auto;
+}
+
+.imgText {
+    position: relative;
+}
+
+/*The text on top of the top image*/
+#text {
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    right: 55%;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1.4em;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*The titles to Kewalo, San Pedro, etc.*/
+.miniTitle {
+    text-align: center;
+}
+
+/*Where/What we offer titles
+.subTitle {
+    
+}*/
+
+/*Descriptive paragraphs*/
+.describe {
+    text-align: center;
+    margin: auto;
+    padding-right: 2em;
+    padding-left: 2em;
+    line-height: 2;
+}
+
+/*About Us styles*/
+.about-us {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.about-us img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+.about-us h1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 36px;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section img {
+    width: 45%;
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.section-text {
+    width: 45%;
+    text-align: left;
+    padding: 0 100px;
+}
+
+/*contact us styles*/
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+
+}
+
+
+
+.all-browsers>h1,
+.browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background: white;
+}
+
+.browser>h2,
+p {
+    margin: 4px;
+    font-size: 90%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.coralimage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+}
+>>>>>>> f6fbff8bfe5f589e8b858a2cbff03532efb41145
